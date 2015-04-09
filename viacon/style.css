@@ -1,0 +1,242 @@
+* {
+	margin: 0;
+	padding:0; 
+}
+.karkas{
+	max-width:1280px;
+	min-width:980px;
+	margin:0 auto;
+}
+body{font-family:Tahoma;}
+/*<=================HEADER================>*/
+header{
+	background:url('images/head-bg-main.jpg') left top repeat-x;
+	height:181px;
+	position:relative;
+}
+.header_main_road{
+	background:url('images/head-bg-road.png') left top no-repeat;
+	height:181px;
+}
+.icon{
+	list-style:none;
+	position:absolute;
+	top: 0; 
+	left: 0;
+	margin:35px 0 0 20px;
+}
+		.icon li{margin-bottom:20px;}
+.header_form{
+	background:#eee;
+	overflow:hidden;
+	padding:10px 0 10px 30px;
+	width:290px;
+	border-radius:0 0 0 10px;
+	position:absolute;
+	top:0;
+	right:0;
+}
+		.head_form input{
+			float:left;
+		}
+		.header_form-search{
+			background:#fff;
+			border:1px solid #a5acb2;
+			height:18px;
+			width:150px;
+			margin:0 10px 0 0;
+			vertical-align:top;
+		}
+.menu{
+	list-style:none;
+	float:right;
+	margin:90px 0 0 0;
+	border-bottom:3px solid #93b0c8;
+	padding:0 70px 3px 0;
+}
+		.menu li{
+			float:left;
+			font:bold 15px "Trebuchet MS";
+			padding:0 10px;
+			color:#ebf0f5;
+			border-left:1px solid #ebf0f5;
+			text-transform:uppercase;
+			line-height:1;
+			float:right;
+		}
+		.menu li a{
+			color:#ebf0f5;
+			text-decoration:none;
+		}
+		.menu li a:hover{
+			text-decoration:underline;
+		}
+		.menu li:last-child{
+			border-left:none;
+			padding:0 10px 0 0;
+		}
+/*<=================MAIN================>*/
+.main{
+	width:100%;
+	height:408px;
+	background:url('images/main_bg.png') right top no-repeat;
+}
+.logo{
+	text-align:right;
+	padding:10px 0 0;
+}
+.main_content{
+	font-size:12px;
+	color:#313131;
+	padding:0 30px 0 30px;
+	vertical-align:top;
+}
+.main_content p{
+	font-size:12px;
+	color:#313131;
+	text-align:justify;
+}
+.main_content h1{
+	font:normal 24px "Trebuchet MS";
+	color:#1c56a0;
+	margin-bottom:10px;
+}
+.main_print{
+	font:10px "Trebuchet MS"; 
+	text-align:right!important;
+}
+		.main_print a{
+			color:#1c56a0;
+		}
+		.main_print a:hover{
+			text-decoration:none;
+		}
+		.main_print img{
+			position:relative;
+			top:8px;
+			margin-left:10px;
+		}
+.right_bar{
+	vertical-align:top;
+	width:470px;
+	padding:20px 60px 0 0;
+	background:url('images/right_bar_background.jpg') right bottom no-repeat;
+}
+.right_bar_zag{
+	display:block;
+	width:475px;
+	height:50px;
+	background:rgba(243, 246, 250, 0.8);
+	border-radius: 17px 45px 0 0 ;
+	margin:-70px 0 20px 0;
+	position:relative;
+	z-index:10;
+}
+		.right_bar_zag p{
+			text-decoration:underline;
+			text-transform:uppercase;
+			padding:20px 0 10px 20px;
+			font:18px "Trebuchet MS";
+			color:#527aaa;
+		}
+.right_bar_produkt{
+	overflow:hidden;
+	margin:0 0 20px 0;
+}
+		.right_bar_produkt img{
+			float:left;
+			margin:0 10px;
+		}
+		.right_bar_produkt h1{
+			font-size:11px;
+			font-weight:bold;
+			color:#1c56a;
+		}
+		.right_bar_produkt h1 a{
+			color:#1c56a;
+		}
+		.right_bar_produkt h1 a:hover{text-decoration:none;}
+		.right_bar_produkt p{
+			color:#313131;
+			font-size:10px;
+			line-height:1.1;
+		}
+.raid_bar_all-product{
+	font-size:10px;
+	text-align:right;
+	color:#1c56a0;
+	font-weight:bold;
+	border-top:1px solid #c9d7e8;
+	margin:0 0 0 10px;
+}
+		.raid_bar_all-product:before{
+			margin-right:1px;
+			content:'●'
+		}
+		.raid_bar_all-product  a{
+			color:#1c56a0;
+		}
+		.raid_bar_all-product  a:hover{
+			text-decoration:none;
+		}
+.right_bar_contact{
+	text-align:right;
+	margin-top:20px;
+	padding:0 0 200px 0;
+	position:relative;
+}
+		.right_bar_contact h3{
+			font:bold 12px "Trebuchet MS";
+			color:#1c56a0;
+			margin:0 0 10px 0;
+		}
+		.right_bar_contact p{
+			font-size:11px;
+			color:#3d3d3d;
+			margin:20px 0 0 0;
+		}
+		.right_bar_contact p span{
+			font-size:11px;
+			font-weight:bold;
+			color:#1c56a0;
+		}
+		.right_bar_contact a{
+			color:#1c56a0;
+		}
+		.right_bar_contact a:hover{
+			text-decoration:none;
+		}
+		.right_bar_contact a img{
+			position:absolute;
+			bottom:0;
+		}
+/*<=================FOOTER================>*/
+footer{
+	background:#eee;
+	overflow:hidden;
+}
+.footer_logo{
+	float:left;
+	margin:40px 58px;
+}
+.footer_copy{
+	float:left;
+	font-size:11px;
+	color:#6d6e71;
+	text-align:right;
+	margin:40px 0 40px 13%;
+	line-height:middle;
+}
+.footer_copy a{
+	color:#1c56aC;
+}
+.footer_copy a:hover{
+	text-decoration:none;
+}
+.footer_rating{
+	float:right;
+	margin:30px 80px 0 0;
+}
+		.footer_rating img{
+			margin:0 5px 5px 0;
+		}
