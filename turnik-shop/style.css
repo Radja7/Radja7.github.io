@@ -1,0 +1,510 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:HelveticaNeueCyr Light, Tahoma;
+}
+h2{font-size: 36px;}
+h3{font: 24px HelveticaNeueCyr Roman;}
+body{background:url('img/bg.png') top left;}
+main{
+	width:100%;
+	height:100%;
+}
+.box{
+	min-width:960px;
+	max-width:50%;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+
+header, footer{
+	height:100px;
+	width:100%;
+	background:#fff;
+}
+.block1{height:100px;}
+		.logo{
+			float:left;
+			padding-top:10px;
+			border:none;/* IE */
+		}
+		.header_text{
+			font-size:24px;
+			text-transform:uppercase;
+			float:left;
+			padding:20px 0 0 27px;
+			line-height: 1.3;
+		}
+		.tel{float:right;}
+				.tel_namber{
+					font-size:30px;
+					background:url(img/tel.png) left 9px no-repeat;
+					padding:5px 0 10px 30px;
+				}
+						.tel_namber span{
+							font:30px HelveticaNeueCyr Medium;
+						}
+				.tel_button{
+					font-size:22px;
+					width:250px;;
+					height:35px;
+					background:#009900;
+				}
+						.tel_button a{
+							color:#fff;
+							text-align:center;
+							text-decoration:none;
+							display: block;
+							padding-top: 6px;
+						}
+				.tel_button:hover{background:#f1c104;}
+
+/*-- begin  zakaz-form --*/
+.zakaz-form{
+	width:100%;
+	height:500px;
+}
+
+		.zakaz-form_turnik{
+			margin: 15px 5px;
+			float:left;
+		}
+		.zakaz-form .box{
+			background: url(img/zakaz-form_kach.png) 45% bottom no-repeat;
+			width:100%;
+			height:100%;
+			position:relative;
+		}
+		.zakaz-form_price{
+			position:absolute;
+			top:12px;
+			left:177px;
+			width:125px;
+			height:125px;
+			border-radius:50%;
+			-moz-border-radius:50%;
+			-webkit-border-radius:50%;
+			background:url('img/zakaz-form_but_circle.png') no-repeat;
+			text-align:center;
+		}
+		.zakaz-form_price_old{
+			font-size:22px;
+			color:#000;
+		}
+				.zakaz-form_price_old span{
+					text-decoration:line-through;
+				}
+		.zakaz-form_price_new{
+			color:#cb0000;
+			font:30px HelveticaNeueCyr Bold;
+		}
+				.zakaz-form_price p{
+					position:relative;
+					top:25%;
+				}
+		.zakaz-form_flip{
+			font-size:18px;
+			position:absolute;
+			bottom:30px;
+		}
+				.zakaz-form_flip img{
+					float:left;
+					margin: 3px 20px 0 0;
+				}
+		.zakaz-form_block{
+			float:right;
+			width:350px;
+			background:#fff;
+			margin-top: 20px;
+		}
+				.zakaz-form_block_header{
+					width:350px;
+					height:50px;
+					background:url('img/zakaz-form_but_form-top_rectangle.png') no-repeat;
+					text-align:center;
+					padding-top:10px;
+					color:#fff;
+					font-size:18px;
+				}
+						.zakaz-form_block_header span{
+							font:24px HelveticaNeueCyr Medium;
+						}
+				.zakaz-form_block input[type="text"], input[type="tel"], input[type="email"] {
+					display:block;
+					background:#f5f5f5;
+					margin:10px auto 0 auto;
+					border:none;
+					width:315px;
+					height:40px;
+					font-size: 18px;
+					padding-left: 15px;
+				}
+				.zakaz-form_block_p, .zakaz-form_block_zakaz{
+					display:block;
+					margin:15px auto 0 auto;
+					width:330px;
+					font-size:14px;
+					position:relative;
+				}
+
+					.zakaz-form_block_p img{
+						position:absolute;
+						right:0;
+						top: -5px;
+					}
+					.zakaz-form_block input[type="checkbox"] + label{
+						background:url(img/checkbox0.jpg) no-repeat;
+						position: relative;
+						left: -13px;
+						top: -3px;
+						padding: 2px 0 5px 30px;
+						height:20px;
+						cursor: pointer;					
+					}
+					.zakaz-form_block input[type="checkbox"]:checked + label{
+						background:url(img/checkbox.jpg) 0 0 no-repeat;
+
+					}
+					.zakaz-form_block_p span{
+						color:#900;
+					}
+				.zakaz-form_block_zakaz{
+					height: 60px;
+					background:url('img/zakaz-form_but_zakazat.png') no-repeat;
+					border:none;
+					font-size: 24px;
+					color:#fff;	
+					text-transform:uppercase;
+					margin: 10px auto;
+				}
+						.zakaz-form_block_zakaz:hover{
+							cursor:pointer;
+						}
+		.zakaz-form_discount{
+			float:right;
+			width: 350px;
+			height: 100px;
+			background-color: #fff;
+			margin-top: 20px;
+		}
+		.zakaz-form_discount_box{
+			width: 100px;
+			height: 95px;
+			background-color: #fccd0f;
+			font-size: 18px;
+			color: #000;
+			text-align:center;
+			padding-top: 5px;
+			line-height: 1.3;
+			float:left;
+		}
+				.zakaz-form_discount_box_head{
+					width: 0;
+					height: 0;
+				    border-left: 11px solid transparent;
+				    border-right: 11px solid transparent;
+				    border-bottom: 10px solid #fccd0f;
+					position: relative;
+					left: 39px;
+					top: -15px;
+				}
+				.zakaz-form_discount_box span{
+					font: bold 24px HelveticaNeueCyr;
+					color: #980000;
+				}
+				.zakaz-form_discount_box b{
+					font:bold 18px HelveticaNeueCyr;
+				}
+
+ /*-- end  zakaz-form --*/
+
+ /*-- begin  info-dos --*/ 
+.info-dos{
+	height:400px;
+	width:100%;
+	background:url('img/info-dos_bg.jpg') repeat-x;
+}
+		.info-dos_img{
+			width:320px;
+			height: 200px;
+			float:left;
+			text-align:center;
+		}
+				.info-dos_img img{
+					margin-top:30px;
+				}
+				.info-dos_img_bottom{margin-top:25px!important;}
+				.info-dos_img p{
+					padding-top: 20px;
+					font:bold 30px HelveticaNeueCyr;
+					color:#fff;
+				}
+				.info-dos_img p span{
+					font:24px HelveticaNeueCyr Light;
+				}
+/*-- end  info-dos --*/ 
+
+/*-- begin  info-tyr --*/ 
+.info-tyr{
+	width:100%;
+	height:582px;		
+}
+		.info-tyr h2{
+			color:#333;
+			text-align: center;
+			margin:50px 0;
+		}
+		.info-tyr_left_price{
+		   	width: 395px;
+			height: 60px;
+			background:url('img/info-tyr_but_price.jpg') no-repeat;
+			position: relative;
+			color:#fff;	
+			padding-left: 15px;
+		}
+		.info-tyr_left{
+			float:left;
+			width: 410px;
+		}
+				.info-tyr_left_img{margin:10px 13.7px 0 0;float:left;}
+				.info-tyr_left_img:last-of-type {
+					margin-right: 0!important;
+				}		
+				.info-tyr_left_price span{line-height: 1.9;}
+				.info-tyr_left_price_cena{
+					font: bold 22px HelveticaNeueCyr;
+				}
+				.info-tyr_left_price_old{
+					font: 22px HelveticaNeueCyr Light;
+				}
+				.info-tyr_left_price_new{
+					font: bold 30px HelveticaNeueCyr;
+				}
+				.info-tyr_left_discount{
+					background:url('img/info-tyr_but_discount.png') no-repeat;
+					height: 60px;
+					width: 105px;
+					position: absolute;
+					top:0;
+					right:0;
+					text-align: center;
+					font: bold 30px HelveticaNeueCyr;
+					line-height: 1.9;
+				}
+		
+		.info-tyr_text{
+			float: right;
+			width:480px;
+			text-align: left;
+			color: #333;
+		}
+			 .info-tyr_text p{
+			 	font-size: 18px;
+			 	padding:25px 0;
+			 	line-height: 1.2;
+			 }
+/*-- end  info-tyr --*/ 
+
+/*-- begin  zakaz --*/ 
+.zakaz{
+	width: 100%;
+	height:100px;
+	background:url('img/zakaz_bg.png') repeat-x;
+	text-align: center;
+}
+	.zakaz_head{
+		width:0;
+		height:0;
+		border-left: 11px solid transparent;
+		border-right: 11px solid transparent;
+		border-bottom: 10px solid #fccd0f;
+		position: relative;
+		left: 467px;
+		top: -10px;
+	}
+	.zakaz input{
+		display: inline-block;
+		margin-top: 10px;
+	}
+	.zakaz .zakaz_input{
+		color: #656565;
+		font-family: "HelveticaNeueCyr";
+		font-size: 18px;
+		font-weight: 300;
+		font-style: italic;
+		width: 205px;
+		height: 40px;
+		background-color: #FFF;
+		margin: 10px 20px 0 0;
+		border: none;
+		padding-left: 15px;
+	}
+	.zakaz_submit{
+		color: #FFF;
+		font-family: "HelveticaNeueCyr";
+		font-size: 24px;
+		font-weight: 300;
+		width: 220px;
+		height: 60px;
+		background:url('img/zakaz-form_but_zakazat.png') no-repeat;
+		border:none;
+		cursor: pointer;
+	}
+/*-- end  zakaz --*/ 
+
+/*-- begin  text --*/ 
+.text{
+	height:440px;
+	width:100%;
+	background:url('img/text_bg.png') repeat-x;
+	color:#fff;
+}
+	.text h2{
+		text-align: center;
+		padding: 50px 0 20px 0;
+	}
+	.text p{
+		color: #FFF;
+		font-size: 18px;
+		font-weight: 300;
+		padding-top: 24px;
+	}
+/*-- end  text --*/ 
+
+/*-- begin  goods --*/ 
+.goods{
+	height: 662px;
+	color:#333;
+}
+	.goods h2{
+		text-align: center;
+		padding-top: 50px;
+	}
+	.goods_box{overflow: hidden;}
+		.goods_box img{
+			float: left;
+			width: 300px;
+			height: 225px;
+			margin-right: 20px;
+		}
+		.goods_box  figcaption{
+			width: 300px;
+			height: 40px;
+			background-color: #333;
+			color: #FFF;
+			font-size: 18px;
+			font-weight: 300;
+			position: relative;
+			bottom: -40px;
+			text-align: center;
+			line-height: 2;
+			text-shadow: 0 0 2px #a7a7a7;
+		}
+		.goods_box p{
+			font-size: 18px;
+			font-weight: 300;
+			line-height: 1.2;
+		}
+		.goods_box strong{ 
+			font:bold 18px HelveticaNeueCyr;
+		}
+/*-- end  goods --*/ 
+
+/*-- begin  video --*/ 
+.video{
+	background: url('img/video_bg.png') repeat-x;
+	height:899px;
+}	
+
+	.video .box{
+		background: url('img/video_man.png') 0 137px no-repeat;
+		height:899px;
+		color: #fff;	
+	}	
+		.video h2{
+			text-align: center;
+			padding: 50px 0 25px 0;
+		}
+		.video_play{
+			float: right;
+			width: 50%;
+			text-align: left; 
+		}
+			.video_play p{
+				margin:25px 0;
+			}
+/*-- end  video --*/ 
+
+/*-- begin  coment --*/ 
+.coment{
+	height: 700px;
+	color: #333;
+}
+	.coment h2{
+		font-size: 36px;
+		font-weight: 300;
+		padding: 50px 0;
+		text-align: center;
+	}
+	.coment_left,
+	 .coment_right{
+		margin-bottom: 20px;
+		display: table;
+	}
+	.coment_left img{
+		float:left;
+		width: 130px;
+		height: 130px;
+		margin-right: 20px;
+	}
+	.coment_right img{
+		float:right;
+		width: 130px;
+		height: 130px;
+		margin-left: 20px;
+	}
+	.coment p{
+		font-weight: 300;
+		font-style: italic;
+		font-size: 18px;
+		line-height: 1.2;
+	}
+	.coment p span{
+		color: #036;
+		font-weight: 300;
+		font-size: 18px;
+		float: right;
+	}
+/*-- end  coment --*/ 
+
+/*-- begin  result --*/
+.result	{
+	height: 859px;
+	background: url('img/result_bg.png');
+}
+	.result h2{
+		color: #FFF;
+		font-size: 36px;
+		font-weight: 300;
+		padding: 50px 0;
+		text-align: center;
+	}
+	.result_img{
+		width: 100%;
+		margin:0 70px;
+	}
+		.result_img img{
+			float:left;
+			margin: 0 25px 50px;
+		}
+/*-- end  result --*/
+
+/*-- begin  footer --*/
+	footer h3{
+		float: left;
+		color: #333;
+		font-weight: 300;
+		padding-top: 24px;
+	}
+/*-- end  footer --*/
