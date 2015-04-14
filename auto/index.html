@@ -1,18 +1,7 @@
 <!DOCTYPE html>
 <!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
 <!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
-<!--[if IE 11]>
-<style>
-	article .art_header:before{
-			margin-left: -194px;
-	}
-	.line_white h2:before,
-	.art_header:before{
-		margin-left: 295px;
-	}
 
-</style>
-<![endif]-->
 <!--[if gt IE 8]><!-->
 <html lang="ru">
 <!--<![endif]-->
@@ -42,6 +31,18 @@
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
+	<!--[if IE ]>
+<style>
+	.line_white h2:before{
+		margin-left: 295px;
+	}
+	article .art_header::before{
+		margin-left: 195px;
+	}
+	
+
+</style>
+<![endif]-->
 </head>
 <body>
 	<header>
